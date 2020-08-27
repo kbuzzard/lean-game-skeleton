@@ -1,5 +1,6 @@
--- import the definition of the example maze
+-- import the definition of the non-euclidean maze
 import mazes.noneuclidean_maze.solutions.definition
+open maze direction
 
 /-
 
@@ -11,15 +12,9 @@ You can go north, south east or west.
 
 If you hit the wall there's an error.
 
-When you're at the exit, type `out`.
--/
+When you're at the exit (room `J`), type `out`.
 
-open maze direction
-
-/-
-
-Solver remark : there are at most 10 rooms.
-
+Solver remark : there are 10 rooms.
 -/
 
 /- Lemma : no-side-bar

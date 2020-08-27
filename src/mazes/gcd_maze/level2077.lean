@@ -1,4 +1,4 @@
--- import the definition of the example maze
+-- import the definition of the gcd maze
 import mazes.gcd_maze.definition
 import data.int.gcd
 open maze direction
@@ -11,22 +11,17 @@ You are in a maze of integers, all distinct.
 
 You can go north, south east or west.
 
-north adds 20 to your integer, south subtracts 20
-east adds 77 to your integer, west subtracts 77
+North adds 20 to your integer, South subtracts 20.
+East adds 77 to your integer, West subtracts 77
 
 The exit is at 1, the gcd of 20 and 77.
 When you're at the exit, type `out`.
--/
-
-
-/-
 
 Solver remark : there are infinitely many rooms.
-
 -/
 
 /- Lemma : no-side-bar
-Can you prove Bezout's Theorem in this example?
+Can you prove this case of Bezout's Theorem?
 -/
 example : can_escape 20 77 0 :=
 begin
