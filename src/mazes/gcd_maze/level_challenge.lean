@@ -4,16 +4,16 @@ import data.int.gcd
 
 /-
 
-# Non-euclidean maze.
+# Prove Bezout's Theorem
 
 You are in a maze of integers, all distinct. 
 
 You can go north, south east or west.
 
-north adds 8 to your integer, south subtracts 8
-east adds 3 to your integer, west subtrascts 3
-
-When you're at the exit, type `out`.
+north adds a to your integer, south subtracts a
+east adds b to your integer, west subtracts b
+The exit is at gcd a b.
+Can you prove you can always exit?
 -/
 
 open maze direction
