@@ -5,7 +5,7 @@ open maze direction
 
 /-
 
-# Non-euclidean maze.
+# Bezout's Theorem Example maze.
 
 You are in a maze of integers, all distinct. 
 
