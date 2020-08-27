@@ -3,12 +3,13 @@
 
 ## By Kevin Buzzard 
 
-An idea coming out of discussions with Kendall Frey
+An idea coming out of discussions with Kendall Frey.
 
 # What is this game?
 
-You are in a maze of twisty passages, all alike. Use n,s,e,w to escape.
-Use the out tactic to get out when you're at the exit room.
+You are in a maze of twisty passages, all distinct (at this point).
+Use the tactics `n`, `s`, `e`, `w` to escape.
+Use the `out` tactic to get out when you're at the exit room.
 
 # Credits
 
