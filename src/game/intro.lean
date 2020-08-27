@@ -7,6 +7,8 @@ An idea coming out of discussions with Kendall Frey.
 
 # What is this game?
 
+Four mazes and a theorem (which I must confess I haven't yet proved).
+
 You are in a maze of twisty passages, all distinct (at this point).
 Use the tactics `n`, `s`, `e`, `w` to escape.
 Use the `out` tactic to get out when you're at the exit room.
