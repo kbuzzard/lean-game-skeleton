@@ -1,19 +1,16 @@
-name = "Real number game"
-version = "0.1.0"
+name = "Lean Maze game"
+version = "1.0.0"
 extra_files = "extras"
 intro = "src/game/intro.lean"
 
 [[worlds]]
-name = "Sup and inf"
+name = "Four mazes"
 id = 1
 levels = [
-	"src/game/sup_inf/L01defs.lean",
-]
+	"src/mazes/example_maze/level.lean",
+	"src/mazes/maze_with_fire/level.lean",
+	"src/mazes/noneuclidean_maze/level.lean",
+	"src/mazes/gcd_maze/level2077.lean",
+        "src/mazes/gcd_maze/level_challenge.lean",
 
-[[worlds]]
-name = "Limits of sequences"
-id = 2
-parents = [1]
-levels = [
-	"src/game/limits/L01defs.lean",
 ]
