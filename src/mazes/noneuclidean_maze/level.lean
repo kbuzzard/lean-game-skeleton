@@ -1,7 +1,7 @@
 -- import the definition of the example maze
 import mazes.noneuclidean_maze.solutions.definition
 
-/-!
+/-
 
 # Non-euclidean maze.
 
@@ -18,14 +18,17 @@ open maze direction
 
 /- Solver remark : there are at most 10 rooms. -/
 
-theorem solve : can_escape A :=
+/- Lemma : no-side-bar
+Can you escape from this non-Euclidean maze?
+-/
+lemma solve : can_escape A :=
 begin
-  -- you start in room A.
-  -- move around e.g. `go north,`. Don't forget the comma 
-  go south,
-  go east,
-  s,
-  n,n,w,
-  -- leave from room J with `out`.
-  sorry,
+  s,s,e,e,w,w,out,
+
+
+
+
+
+
+
 end

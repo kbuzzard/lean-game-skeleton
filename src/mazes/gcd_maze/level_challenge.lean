@@ -21,4 +21,17 @@ open maze direction
 /- Solver remark : there are infinitely many rooms. -/
 
 theorem challenge (a b : ℕ) : can_escape a b 0 :=
-sorry
+begin
+  have solution : can_escape a b (nat.gcd a b),
+    out,
+  sorry
+
+
+
+
+
+
+
+  
+end
+

@@ -121,7 +121,7 @@ meta def W :=
   apply maze.can_escape.W5 <|> 
   fail "you cannot go west"]
 
-meta def out := `[apply have_escaped <|> fail "you are not at the exit"]
+meta def out := `[apply maze.can_escape.have_escaped <|> fail "you are not at the exit"]
 
 -- hand-generated solver
 meta def xyzzy :=

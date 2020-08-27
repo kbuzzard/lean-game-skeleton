@@ -1,7 +1,7 @@
 -- import the definition of the example maze
 import mazes.maze_with_fire.solutions.definition
 
-/-!
+/-
 
 # Maze with fire.
 
@@ -19,22 +19,19 @@ namespace maze
 
 /-- Use n,s,e,w to move around. When you're at the exit, type `out`. -/
 
+/- Lenna : no-side-bar
+Can you solve this maze?
+-/
 example : goal :=
 begin
   -- ready...
   unfold goal,
   -- go!
-  s,
-  n,
-  s,
   e,
   n,
-  sorry,
-  -- Don't forget the commas.
-  -- Don't bang into the walls -- those are errors.
-  -- When you get there, the tactic to get you out is `out`. 
-  -- There is also a magic word, rumoured to be
-  -- an ancient translation of the word `sorry`.
+  e,
+  e,
+  out,
 end
 
 end maze
