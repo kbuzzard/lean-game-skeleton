@@ -1,5 +1,5 @@
 /-
-# The Maze Game, version 1.0.0.
+# The Maze Game, version 1.3.0.
 
 ## By Kevin Buzzard 
 
