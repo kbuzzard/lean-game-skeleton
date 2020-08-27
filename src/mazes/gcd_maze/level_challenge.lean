@@ -2,7 +2,7 @@
 import mazes.gcd_maze.definition
 import data.int.gcd
 
-/-!
+/-
 
 # Non-euclidean maze.
 
@@ -18,8 +18,15 @@ When you're at the exit, type `out`.
 
 open maze direction
 
-/- Solver remark : there are infinitely many rooms. -/
+/-
 
+Solver remark : there are infinitely many rooms.
+
+-/
+
+/- Lemma : no-side-bar
+Can you prove the general case?
+-/
 theorem challenge (a b : ℕ) : can_escape a b 0 :=
 begin
   have solution : can_escape a b (nat.gcd a b),
@@ -32,6 +39,6 @@ begin
 
 
 
-  
+
 end
 

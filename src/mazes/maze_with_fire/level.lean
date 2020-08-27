@@ -15,11 +15,15 @@ room 5.
 
 namespace maze
 
-/- Solver remark : there are 6 rooms. -/
+/-
 
-/-- Use n,s,e,w to move around. When you're at the exit, type `out`. -/
+Solver remark : there are 6 rooms.
 
-/- Lenna : no-side-bar
+Use n,s,e,w to move around. When you're at the exit, type `out`.
+
+-/
+
+/- Lemma : no-side-bar
 Can you solve this maze?
 -/
 example : goal :=

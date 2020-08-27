@@ -13,13 +13,21 @@ You can go north, south east or west.
 north adds 20 to your integer, south subtracts 20
 east adds 77 to your integer, west subtracts 77
 
+The exit is at 1, the gcd of 20 and 77.
 When you're at the exit, type `out`.
 -/
 
 open maze direction
 
-/- Solver remark : there are infinitely many rooms. -/
+/-
 
+Solver remark : there are infinitely many rooms.
+
+-/
+
+/- Lemma : no-side-bar
+Can you prove Bezout's Theorem in this example?
+-/
 example : can_escape 20 77 0 :=
 begin
   iterate 27 {n},

@@ -16,7 +16,11 @@ When you're at the exit, type `out`.
 
 open maze direction
 
-/- Solver remark : there are at most 10 rooms. -/
+/-
+
+Solver remark : there are at most 10 rooms.
+
+-/
 
 /- Lemma : no-side-bar
 Can you escape from this non-Euclidean maze?
