@@ -10,7 +10,7 @@ levels = [
 	"src/mazes/example_maze/level.lean",
 	"src/mazes/maze_with_fire/level.lean",
 	"src/mazes/noneuclidean_maze/level.lean",
-	"src/mazes/gcd_maze/level2077.lean",
+	"src/mazes/gcd_maze/level813.lean",
         "src/mazes/gcd_maze/level_challenge.lean",
 
 ]
