@@ -112,7 +112,7 @@ meta def e :=
   apply maze.can_escape.E5 <|> 
   fail "you cannot go east"]
 
-meta def W :=
+meta def w :=
 `[apply maze.can_escape.W0 <|>
   apply maze.can_escape.W1 <|>
   apply maze.can_escape.W2 <|> 
