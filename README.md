@@ -11,13 +11,12 @@ The [Natural Number Game](http://wwwf.imperial.ac.uk/~buzzard/xena/natural_numbe
 This assumes you have [Lean and mathlib installed](https://github.com/leanprover-community/mathlib#installation), and also Mohammad Pedramfar's [Lean game maker](https://github.com/mpedramfar/Lean-game-maker). 
 
 ```
-git clone git@github.com:kbuzzard/lean-game-skeleton.git
-cd lean-game-skeleton/
-leanpkg upgrade
-update-mathlib
+leanproject get kbuzzard/lean-game-skeleton
 make-lean-game
 ```
 Now in the html directory of the repository you have a two-world two-level game, which you can play (assuming you have an http server installed) by starting the server in the html directory and then pointing a web browser at it.
+
+If you need the lean_js_js.js and other files, find them [here](https://github.com/leanprover-community/lean/releases).
 
 ## Brief explanations
 
