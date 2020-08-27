@@ -1,6 +1,7 @@
 -- import the definition of the example maze
 import mazes.gcd_maze.definition
 import data.int.gcd
+open maze direction
 
 /-
 
@@ -17,7 +18,6 @@ The exit is at 1, the gcd of 20 and 77.
 When you're at the exit, type `out`.
 -/
 
-open maze direction
 
 /-
 
@@ -33,4 +33,5 @@ begin
   iterate 27 {n},
   iterate 7 {w},
   out
-end.
+end
+
