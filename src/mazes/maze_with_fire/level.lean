@@ -1,5 +1,6 @@
--- import the definition of the example maze
+-- import the definition of the maze surrounded by fore
 import mazes.maze_with_fire.solutions.definition
+namespace maze
 
 /-
 
@@ -10,17 +11,12 @@ You are in a maze of twisty passages, all distinct.
 You can go north, south east or west.
 
 If you fall into the fire, you will end up in the room of death,
-room 5.
--/
-
-namespace maze
-
-/-
+room 5, from which there is no escape.
 
 Solver remark : there are 6 rooms.
 
-Use n,s,e,w to move around. When you're at the exit, type `out`.
-
+Use `n`, `s`,`e`, `w` to move around. The exit is room `4`.
+When you're at the exit, type `out`.
 -/
 
 /- Lemma : no-side-bar
