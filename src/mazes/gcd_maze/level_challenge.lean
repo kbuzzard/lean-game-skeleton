@@ -1,6 +1,7 @@
--- import the definition of the example maze
+-- import the definition of the gcd maze
 import mazes.gcd_maze.definition
 import data.int.gcd
+open maze direction
 
 /-
 
@@ -10,22 +11,16 @@ You are in a maze of integers, all distinct.
 
 You can go north, south east or west.
 
-north adds a to your integer, south subtracts a
-east adds b to your integer, west subtracts b
-The exit is at gcd a b.
+North adds `a` to your integer, South subtracts `a`.
+East adds `b` to your integer, West subtracts `b`.
+You start at 0. The exit is at `nat.gcd a b`.
 Can you prove you can always exit?
--/
 
-open maze direction
-
-/-
-
-Solver remark : there are infinitely many rooms.
-
+Solver remark : there are infinitely many mazes.
 -/
 
 /- Lemma : no-side-bar
-Can you prove the general case?
+Can you prove you can escape in the general case?
 -/
 theorem challenge (a b : ℕ) : can_escape a b 0 :=
 begin
